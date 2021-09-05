@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align:start;
   min-width: min-content;
 }
 
@@ -32,12 +32,13 @@
   color: white;
 }
 
-footer{
-  margin: 10px;
+.App-footer{
+  margin-top: 10px;
+  margin-bottom: 2%;
   font-size: x-small;
-  text-align: left;
+  text-align: right;
   font-family: fantasy;
-  position: absolute;
+  position: relative;
   left: 5px;
 }
 

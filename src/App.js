@@ -7,14 +7,13 @@ export default function App() {
     <div className="App">
       <div className="container">   
         <header className="App-header">
-         <h3>≈ Dictionary 📙≈</h3>
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
+        <img src={logo} className="App-logo img-fluid" alt="logo" />        
+        <h3>≈ Dictionary 📙≈</h3>
         </header>
-        <footer> Coded by JSCO  </footer>
+        <footer className="App-footer"> Coded by JSCO  </footer>
         <main>
           <Dictionary />
         </main>
-       
       </div>
     </div>
   );

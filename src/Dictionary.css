@@ -1,6 +1,20 @@
 .Dictionary{
+  display: block;
+  align-items: baseline;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
-  margin: 10px;
+  margin: 2%;
   color: purple;
 }
+
+.D-search{
+  border-color: purple;
+  border-radius: 3px;
+  text-align: center;
+  width: 30%;
+}
+
+h5{
+  margin: 0 auto;
+}
+
