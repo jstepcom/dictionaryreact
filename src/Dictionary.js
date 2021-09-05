@@ -14,8 +14,9 @@ export default function Dictionary (){
   }
   return (
     <div className="Dictionary">
+      <h5>Looking for:</h5>
       <form onSubmit={search}>
-        <input type="search" onChange = {updateWord}/> 
+        <input className = "D-search" type="search" onChange = {updateWord}/> 
       </form>  
     </div>
   );
