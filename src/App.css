@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 30px;
+  height: 45px;
   position: absolute;
   top: 5px;
   left: 5px;
@@ -17,14 +17,26 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ background-color: #f19ecc;
+ padding: 15px;
+ margin-top: 5px;
+  min-height: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   font-size: calc(10px + 2vmin);
+  font-family: fantasy;
   color: white;
+}
+
+footer{
+  margin: 10px;
+  font-size: x-small;
+  text-align: left;
+  font-family: fantasy;
+  position: absolute;
+  left: 5px;
 }
 
 .App-link {
