@@ -17,9 +17,9 @@ export default function Dictionary ({lang}){
 
   function updateWord(event){setKeyword (event.target.value);}
 
-  function reset(){
+ /*function reset(){
     setKeyword(null);
-    console.log(keyword)}
+    console.log(keyword)}*/
 
   function handleResponse(response){
     word = response.data[0].word;
