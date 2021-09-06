@@ -12,7 +12,7 @@ export default function Dictionary ({lang}){
 
   useEffect(()=>{
     setRun(false);
-    reset()
+    //reset()
   },[lang])
 
   function updateWord(event){setKeyword (event.target.value);}
