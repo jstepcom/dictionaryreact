@@ -1,11 +1,8 @@
 import logo from './logo.svg';
-import './App.css';
-import Dictionary from './Dictionary.js';
+import './style/App.css';
 import Language from './Language';
 
 export default function App() {
-
-
 
   return (
     <div className="App">

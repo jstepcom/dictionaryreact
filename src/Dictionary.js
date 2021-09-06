@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import "./Dictionary.css";
+import "./style/Dictionary.css";
 import Swal from 'sweetalert2'
 import axios from 'axios';
 
