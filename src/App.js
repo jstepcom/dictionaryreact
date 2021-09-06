@@ -1,8 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import Dictionary from './Dictionary.js';
+import Language from './Language';
 
 export default function App() {
+
+
+
   return (
     <div className="App">
       <div className="container">   
@@ -12,7 +16,7 @@ export default function App() {
         </header>
         <footer className="App-footer"> Coded by JSCO  </footer>
         <main>
-          <Dictionary />
+          <Language/>
         </main>
       </div>
     </div>
